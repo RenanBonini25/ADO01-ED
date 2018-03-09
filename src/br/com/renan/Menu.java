@@ -29,6 +29,7 @@ public class Menu {
         System.out.println("4 - Imprimir todos os elementos da lista");
         System.out.println("5 - Remover um elemento da lista");
         System.out.println("6 - Remover todos os elementos da lista");
+        System.out.println("0 - Sair");
     }
 
     public static void menu(int opcao, ListaSimples lista) {
@@ -72,6 +73,8 @@ public class Menu {
                 } else {
                     System.out.println("Lista vazia!");
                 }
+                break;
+            case 0:
                 break;
         }
     }
